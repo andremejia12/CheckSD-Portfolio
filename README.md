@@ -49,6 +49,38 @@ SQL Server  (Azure SQL Database — Brazil South)
 - Dashboards estadísticos por período, red y ministerio
 - Módulo de auditoría y notificaciones
 
+## Capturas de Pantalla
+
+### App — Panel de Administrador
+![Panel principal del Admin](screenshots/app-panel-admin.png)
+
+### App — Registro de Asistencia (Encargado)
+![Registro de asistencia](screenshots/app-registro-asistencia.png)
+
+### App — Panel del Líder
+![Panel del Líder](screenshots/app-panel-lider.png)
+
+### App — Gestión de Redes y Ministerios
+![Gestión de Redes y Ministerios](screenshots/app-redes-ministerios.png)
+
+### App — Inscripciones a Eventos
+![Inscripciones a eventos](screenshots/app-inscripciones-eventos.png)
+
+### App — Registro de Eventos de la Organización
+![Registro de eventos](screenshots/app-registro-eventos.png)
+
+### App — Filtro de Personas por Servicio
+![Filtro de personas por servicio](screenshots/app-filtro-personas.png)
+
+### Power BI — Porcentaje y Total de Asistencias por Redes
+![Porcentaje de asistencias por redes](screenshots/powerbi-porcentaje-redes.png)
+
+### Power BI — Asistencia Detallada de Cada Sábado
+![Asistencia detallada por sábado](screenshots/powerbi-asistencia-detallada.png)
+
+### Power BI — Ranking Top 5 Integrantes y Líderes
+![Ranking de integrantes y líderes](screenshots/powerbi-ranking-top5.png)
+
 ## Mi rol
 
 Diseñé y desarrollé el sistema completo de forma independiente (proyecto de 2 integrantes a nivel universitario, con mi compañera colaborando en la parte documentaria):
@@ -58,7 +90,7 @@ Diseñé y desarrollé el sistema completo de forma independiente (proyecto de 2
 - Identifiqué y corregí una falla de autorización en producción, migrando la validación de un campo de negocio a autorización declarativa por rol.
 - Desarrollo del frontend Flutter con arquitectura en capas (Screens → Providers → Services).
 - Despliegue en Azure (App Service + SQL Database) y Netlify.
-- Migración de los reportes de asistencia a dashboards en **Power BI**, con medidas DAX.
+- Migración de los reportes de asistencia a dashboards en **Power BI**, con medidas DAX y matriz de calor por red/mes.
 
 ## Stack Tecnológico
 
